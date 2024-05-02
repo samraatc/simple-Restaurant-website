@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Your Restaurant</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Our Menu</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <h1>Contact Us</h1>
+                <div class="form">
+                <form action="submit_form.php" method="POST">
+                    <div class="input-field">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter Your name" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter you email" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
